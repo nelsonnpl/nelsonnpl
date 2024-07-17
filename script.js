@@ -7,16 +7,16 @@ var img = document.getElementById('imgJS');
     
     switch(persona) {
         case 'persona1':
-            img.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvLEn5Pet3QpQpzPz1XgG-oyecgsRd0tjpyQ&s"
+            img.src="https://media.licdn.com/dms/image/C5603AQEdcMGCW2t_7A/profile-displayphoto-shrink_800_800/0/1607155557421?e=1726704000&v=beta&t=-fNJVHyFKJo1iNSSmuxyDHA0eaHi_VwdSfeCx1cxI94"
             textContent.innerHTML = `
                 <h2>Ignacio Poladura de Armas</h2>
-                <p>Ignacio Poladura de Armas es un destacado ejecutivo y profesional en el sector del turismo en España. Actualmente, es el Director General de Viajes Insular, una de las principales empresas de distribución de productos turísticos en Canarias. Poladura asumió este cargo después de seis años en la empresa, donde previamente se desempeñó como adjunto a la dirección general y director comercial y de marketing​ (Europa Press)​​ (Hosteltur)​.
+                <p>Ignacio Poladura de Armas es un conocido ejecutivo y profesional en el sector del turismo en España. Actualmente, es el Director General de Viajes Insular, una de las principales empresas de distribución de productos turísticos en Canarias. Ignacio asumió este cargo después de seis años en la empresa, donde previamente se desempeñó como adjunto a la dirección general y director comercial y de marketing​ (Europa Press)​​ (Hosteltur)​.
                 <br>
                 <br>
                 Además de su rol en Viajes Insular, Ignacio Poladura ha sido nombrado recientemente presidente de la Asociación Canaria de Agencias de Viajes y Turoperadores (ACAVyT). Este nombramiento refleja su amplia experiencia y conocimiento del sector, así como su compromiso con el desarrollo y la defensa de los intereses profesionales de las agencias de viajes en Canarias​ (La Voz de Lanzarote)​​ (Tourinews)​.
                 <br>
                 <br>
-                En cuanto a su formación académica, Poladura es licenciado en Administración y Dirección de Empresas por la Universidad de Las Palmas de Gran Canaria. También ha realizado diversos estudios de posgrado, incluyendo programas en la UOC y el IE Business School. Su carrera profesional incluye experiencia en multinacionales como Deloitte y Lastminute.com, lo que le ha proporcionado una perspectiva global y habilidades en digitalización y marketing turístico​ (Europa Press)​​ (Hosteltur)​.</p>
+                En cuanto a su formación académica, Poladura es licenciado en Administración y Dirección de Empresas por la Universidad de Las Palmas de Gran Canaria. También ha realizado diversos estudios de posgrado, incluyendo programas en la UOC y el IE Business School.(Europa Press)​​ (Hosteltur)​.</p>
 
                 <div class="submodal">
                     <p>Haz click <a href="data/transcriptions/transcription_ignacio_poladura_de_armas.pdf" download><em>aquí</em></a> para descargar la entrevista en formato PDF.</p>
@@ -27,10 +27,15 @@ var img = document.getElementById('imgJS');
             img.src="https://media.licdn.com/dms/image/C4E03AQGIY_9JWbL8dQ/profile-displayphoto-shrink_800_800/0/1639268459091?e=1726704000&v=beta&t=BYg9B4MR90QeCTIl7tVbMqKHl3SIxjLVRihk5YI5HFs"
             textContent.innerHTML = `
                 <h2>Juan Andrés Melián Suárez</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam fermentum justo eget pharetra sodales.</p>
+                <p>Actual consul honorario del Gran Ducado de Luxemburgo en Canarias, Juan Andrés Melián, preside el Consejo de Administración de Viajes Insular. 
+                <br>
+                <br>
+                Licenciado en Filología Inglesa por la Universidad de Salamanca, con un postgrado en internacionalización de empresas y de inmobiliarias, empezó su carrera profesional en Viajes Insular, donde comenzó en área emisora de la empresa. Luego de algunos años, abandonó la empresa para trabajar en la empresa familiar.
+            
+                </p>
                    
                 <div class="submodal">
-                    <p>Haz click <a href="data/transcriptions/transcription_ignacio_poladura_de_armas.pdf" download><em>aquí</em></a> para descargar la entrevista en formato PDF.</p>
+                    <p>Haz click <a href="data/transcriptions/transcription_juan_andres_melian.pdf" download><em>aquí</em></a> para descargar la entrevista en formato PDF.</p>
                 </div>
             `;
             break;
@@ -41,7 +46,7 @@ var img = document.getElementById('imgJS');
                 <p>Agustín Manrique de Lara Benítez de Lugo es una figura destacada en el ámbito empresarial de Canarias. Actualmente, es presidente del Círculo de Empresarios de Gran Canaria y ha sido presidente de la Confederación Canaria de Empresarios (CCE) desde junio de 2013. En julio de 2020, fue elegido nuevamente presidente del Círculo de Empresarios de Gran Canaria.​ (CCElpa)​​ (CirculoEmpresariosGC)​​ (CirculoEmpresariosGC)​.</p>
 
                    <div class="submodal">
-                    <p>Haz click <a href="data/transcriptions/transcription_ignacio_poladura_de_armas.pdf" download><em>aquí</em></a> para descargar la entrevista en formato PDF.</p>
+                    <p>Haz click <a href="data/transcriptions/transcription_agustin_manrique_de_lara.pdf" download><em>aquí</em></a> para descargar la entrevista en formato PDF.</p>
                 </div>
             `;
             break;
@@ -52,7 +57,7 @@ var img = document.getElementById('imgJS');
                 <p>José María Mañaricua es el presidente de la Federación de Empresarios de Hostelería y Turismo de Las Palmas (FEHT), cargo que ha ocupado desde 2017. Fue reelegido en 2021 para un nuevo mandato de cuatro años, destacándose por su gestión y compromiso con el sector turístico en tiempos difíciles. Mañaricua también es presidente de la Asociación de Hoteleros, integrada en la FEHT. Ha sido un firme defensor de la industria turística en Canarias, negando la existencia de turismofobia en la región y subrayando la importancia de la sostenibilidad en el sector​ (FEHT)​​ (Europa Press)​​ (Tourinews)​​ (Atlántico Hoy)​​​.</p>
 
                    <div class="submodal">
-                    <p>Haz click <a href="data/transcriptions/transcription_ignacio_poladura_de_armas.pdf" download><em>aquí</em></a> para descargar la entrevista en formato PDF.</p>
+                    <p>Haz click <a href="data/transcriptions/transcription_jose_manaricua.pdf" download><em>aquí</em></a> para descargar la entrevista en formato PDF.</p>
                 </div>
             `;
             break;
@@ -67,7 +72,7 @@ En su carrera pública, Sanabria ha sido gerente de la Mancomunidad de Municipio
 </p>
 
    <div class="submodal">
-                    <p>Haz click <a href="data/transcriptions/transcription_ignacio_poladura_de_armas.pdf" download><em>aquí</em></a> para descargar la entrevista en formato PDF.</p>
+                    <p>Haz click <a href="data/transcriptions/transcription_jose_sanabria.pdf" download><em>aquí</em></a> para descargar la entrevista en formato PDF.</p>
                 </div>
             `;
             break;
@@ -85,7 +90,7 @@ Desde noviembre de 2002, Villalobos dirige beCordial Hotels & Resorts, gestionan
 Villalobos también promueve altos estándares de calidad medioambiental y responsabilidad social, involucrándose en iniciativas de patrocinio deportivo, culturales y sociales​ (Futurismo Canarias)​​ (Cordial)​.</p>
 
    <div class="submodal">
-                    <p>Haz click <a href="data/transcriptions/transcription_ignacio_poladura_de_armas.pdf" download><em>aquí</em></a> para descargar la entrevista en formato PDF.</p>
+                    <p>Haz click <a href="data/transcriptions/transcription_villalobos.pdf" download><em>aquí</em></a> para descargar la entrevista en formato PDF.</p>
                 </div>
             `;
             break;

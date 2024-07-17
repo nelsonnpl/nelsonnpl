@@ -86,22 +86,21 @@ body {
   h1 {
     margin: 0;
     font-size: 3em;
-    width: 60%;
+    width: 80%;
+    max-width: 800px;
   }
 
   a {
-
     text-decoration: none;
-    color: #fff
+    color: #fff;
   }
 
   a:hover {
-
     color: #f29559;
   }
   
   .subtitle {
-   padding-top: 10px;
+    padding-top: 10px;
     font-size: 1.25em;
     margin: 10px 0 20px;
   }
@@ -119,6 +118,7 @@ body {
   
   .btn:hover {
     background-color: #ffffff;
+    color: #f29559;
     transform: translateY(-2px);
   }
   
@@ -131,4 +131,35 @@ body {
     margin: 20px 0;
     padding: 0 20px;
   }
-  
+
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 2em;
+      width: 90%;
+    }
+    
+    .subtitle {
+      font-size: 1em;
+    }
+    
+    .btn {
+      padding: 10px 15px;
+      font-size: 14px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    h1 {
+      font-size: 1.5em;
+      width: 100%;
+    }
+    
+    .subtitle {
+      font-size: 0.9em;
+    }
+    
+    .btn {
+      padding: 8px 12px;
+      font-size: 12px;
+    }
+  }
